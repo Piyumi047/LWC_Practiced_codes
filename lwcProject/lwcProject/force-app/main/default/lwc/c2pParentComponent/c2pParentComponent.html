@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Child to Parent commiunication">
+        <lightning-button label="Show model" onclick={clickHandler}></lightning-button>
+        <h2>{msg}</h2>
+        <template if:true={showModel}>
+            <c-c2p-model-component  onclose={closeModel}></c-c2p-model-component>
+        </template>
+    </lightning-card>
+</template>
