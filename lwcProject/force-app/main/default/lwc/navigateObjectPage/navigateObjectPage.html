@@ -1,0 +1,47 @@
+<template>
+    <lightning-card title="Navigate To New Record">
+        <div class="slds-var-p-around_medium">
+            <lightning-button 
+                 variant="brand" 
+                 label="Navigate To New Record"
+                 onclick={navToObjectPage}
+                 >
+            </lightning-button>
+        </div>
+    </lightning-card>
+    <div class="slds-var-p-around_medium"></div>
+    <lightning-card title="Navigate To New Record with Default Values">
+        <div class="slds-var-p-around_medium">
+            <lightning-button 
+                 variant="brand" 
+                 label="New Record with Default Values"
+                 onclick={navToObjectPagewithDefaultValues}
+                 >
+            </lightning-button>
+        </div>
+    </lightning-card>
+
+    <div class="slds-var-p-around_medium"></div>
+    <lightning-card title="Navigate To List View">
+        <div class="slds-var-p-around_medium">
+            <lightning-button 
+                 variant="brand" 
+                 label="Open Contact List View"
+                 onclick={navToListView}
+                 >
+            </lightning-button>
+        </div>
+    </lightning-card>
+
+    <div class="slds-var-p-around_medium"></div>
+    <lightning-card title="Navigate To Files">
+        <div class="slds-var-p-around_medium">
+            <lightning-button 
+                 variant="brand" 
+                 label="Open Files"
+                 onclick={navToFiles}
+                 >
+            </lightning-button>
+        </div>
+    </lightning-card>
+</template>
